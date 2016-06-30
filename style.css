@@ -7,3 +7,77 @@ a:visited {
 a:hover {
 	color: black;
 }
+a {
+	text-decoration: none;
+}
+body {
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+#container2 {
+	background-color: black;
+	height: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://c2.staticflickr.com/8/7521/16259055865_96363292a8_b.jpg");
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#container2 a {
+	border: 1px solid white;
+	padding: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-radius: 15px;
+}
+#container2 h1 {
+	font-size: 45px;
+	font-weight: 300;
+}
+#table {
+}
+#container {
+}
+
+/* button */
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  background-color: black;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 25px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: white;
+}
+.button span:after {
+  content: '>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: white;
+}
+.button:hover span {
+  padding-right: 35px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
