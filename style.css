@@ -1,15 +1,5 @@
-a:link {
-	color: white;
-}
-a:visited {
-	color: white;
-}
-a:hover {
-	color: black;
-}
-a {
-	text-decoration: none;
-}
+/* primary containers */
+
 body {
 	background-color: black;
 	font-family: 'Roboto Condensed', 'Geneva', sans-serif;
@@ -61,6 +51,7 @@ body {
 .tc {
 	max-width: 30%;
 }
+
 /* button */
 
 .button {
@@ -101,4 +92,19 @@ body {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+/* link states */
+
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: black;
+}
+a {
+	text-decoration: none;
 }
