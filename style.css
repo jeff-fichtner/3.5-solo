@@ -10,7 +10,7 @@ body {
 	border: 2px solid hotpink;
 }
 #container2 {
-	border: 2px solid hotpink;
+	border: 2px solid green;
 	background-color: black;
 	height: 30em;
     display: flex;
@@ -36,15 +36,14 @@ body {
 	padding-right: 5px;
 }
 #container3 {
-	border: 2px solid hotpink;
-
+	border: 2px solid orange;
 }
 #container4 {
 	margin-top: 5px;
 	max-width: 100%;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	border: 2px solid hotpink;
+	border: 2px solid blue;
 
 }
 #finalimage {
