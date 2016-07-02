@@ -1,20 +1,16 @@
-a:link {
-	color: white;
-}
-a:visited {
-	color: white;
-}
-a:hover {
-	color: black;
-}
-a {
-	text-decoration: none;
-}
+/* primary containers */
+
 body {
 	background-color: black;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', 'Geneva', sans-serif;
+	color: black;
+	margin: 4px;
+	height: 100%;
+	max-width: 100%;
+	/*border: 2px solid hotpink;*/
 }
 #container2 {
+	/*border: 2px solid green;*/
 	background-color: black;
 	height: 30em;
     display: flex;
@@ -27,18 +23,48 @@ body {
 }
 #container2 a {
 	border: 1px solid white;
-	padding: 5px;
+	padding: 20px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	border-radius: 15px;
+	border-radius: 6px;
 }
 #container2 h1 {
 	font-size: 45px;
 	font-weight: 300;
+	line-height: 1;
+	letter-spacing: 6px;
+	padding-right: 5px;
 }
-#table {
+#container3 {
+	/*border: 2px solid orange;*/
 }
-#container {
+#container4 {
+	margin-top: 5px;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*border: 2px solid blue;*/
+}
+#finalimage {
+	width: 100%;
+}
+table {
+	table-layout: fixed;
+	width: 100%;
+	border: 1px solid black;
+	color: white;
+}
+.tablerow{
+}
+pre {
+	width: 100%;
+}
+.ti {
+	width: 100%;
+}
+footer {
+	/*border: 2px solid hotpink;*/
+	color: white;
 }
 
 /* button */
@@ -46,16 +72,18 @@ body {
 .button {
   display: inline-block;
   border-radius: 4px;
-  border: none;
+  border: 6px solid white;
   background-color: black;
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
   padding: 25px;
-  width: 100%;
+  width: 93%;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin-top: 5px;
+  margin-left: 0px;
+  letter-spacing: 2px;
 }
 .button span {
   cursor: pointer;
@@ -80,4 +108,19 @@ body {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+/* link states */
+
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: black;
+}
+a {
+	text-decoration: none;
 }
