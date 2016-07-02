@@ -44,16 +44,22 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	border: 2px solid blue;
-
 }
 #finalimage {
-	position: relative;
+	width: 100%;
 }
-.table {
-
+table {
+	table-layout: fixed;
+	width: 100%;
+	border: 1px solid black;
 }
-.tc {
-
+.tablerow{
+}
+pre {
+	width: 100%;
+}
+.ti {
+	width: 100%;
 }
 footer {
 	border: 2px solid hotpink;
@@ -74,6 +80,7 @@ footer {
   transition: all 0.5s;
   cursor: pointer;
   margin-top: 5px;
+  margin-left: 0px;
   letter-spacing: 2px;
 }
 .button span {
