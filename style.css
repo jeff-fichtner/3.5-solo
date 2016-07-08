@@ -3,7 +3,7 @@
 body {
 	background-color: black;
 	font-family: 'Roboto Condensed', 'Geneva', sans-serif;
-	color: black;
+	color: white;
 	margin: 5px;
 	height: 100%;
 	max-width: 100%;
@@ -125,4 +125,10 @@ a {
   #storylink {
   	font-size: 80%;
   }
+}
+
+/* stories page */
+
+.underline {
+	text-decoration: underline;
 }
