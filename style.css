@@ -4,8 +4,7 @@ body {
 	background-color: black;
 	font-family: 'Roboto Condensed', 'Geneva', sans-serif;
 	color: black;
-	margin: 4px;
-	margin: auto;
+	margin: 5px;
 	height: 100%;
 	max-width: 100%;
 }
@@ -20,28 +19,28 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#container2 a {
+#container2 > a {
+	font-size: 120%;
+	letter-spacing: 9px;
+	padding-right: 5px;
 	border: 1px solid white;
+	padding-right: 5px;
 	padding: 20px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	border-radius: 6px;
 }
-#container2 h1 {
-	font-size: 45px;
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: 6px;
-	padding-right: 5px;
-}
 #container4 {
-	font-size: 2em;
+	padding-top: 5px;
+	text-align: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+#storylink {
+	font-size: 200%;
+}
 #finalimage {
-	width: 100%;
-	border: 2px solid white;
+	width: 99%;
 }
 table {
 	table-layout: fixed;
@@ -72,10 +71,33 @@ a {
 }
 
 /* media queries */
-/*
-@media (max-width: 600px) {
-  .class {
-    display: none;
+
+@media (max-width: 770px) {
+  #container2 > a {
+    font-size: 75%;
+  }
+  .tc > pre {
+  	font-size: 75%;
+  }
+  footer {
+  	font-size: 75%;
+  }
+  #storylink {
+  	font-size: 150%;
   }
 }
-*/
+@media (max-width: 580px) {
+  .tc > pre {
+  	font-size: 50%;
+  }
+  footer {
+  	font-size: 50%;
+  }
+  #storylink {
+  	font-size: 100%;
+  }
+}
+@media (max-width: 535px) {
+  .tc > pre {
+  	font-size: 25%;
+}
