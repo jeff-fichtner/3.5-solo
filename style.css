@@ -5,8 +5,7 @@ body {
 	font-family: 'Roboto Condensed', 'Geneva', sans-serif;
 	color: black;
 	margin: 4px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	height: 100%;
 	max-width: 100%;
 }
@@ -36,9 +35,7 @@ body {
 	padding-right: 5px;
 }
 #container4 {
-	position: relative;
-	margin-top: 5px;
-	max-width: 100%;
+	font-size: 2em;
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -65,10 +62,10 @@ a:link {
 	color: white;
 }
 a:visited {
-	color: #f2f2f2;
+	color: #bfbfbf;
 }
 a:hover {
-	color: black;
+	color: #ccffff;
 }
 a {
 	text-decoration: none;
