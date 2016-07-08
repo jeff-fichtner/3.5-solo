@@ -99,5 +99,30 @@ a {
 }
 @media (max-width: 535px) {
   .tc > pre {
-  	font-size: 25%;
+  	font-size: 8px;
+  }
+}
+@media (max-width: 475px) {
+  .tc > pre {
+  	font-size: 7px;
+  }
+}
+@media (max-width: 420px) {
+  .tc > pre {
+  	font-size: 6px;
+  }
+}
+@media (max-width: 360px) {
+  #container2 > a {
+    font-size: 50%;
+  }
+  .tc > pre {
+  	font-size: 5px;
+  }
+  footer {
+  	font-size: 7px;
+  }
+  #storylink {
+  	font-size: 80%;
+  }
 }
