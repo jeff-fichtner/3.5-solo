@@ -5,12 +5,12 @@ body {
 	font-family: 'Roboto Condensed', 'Geneva', sans-serif;
 	color: black;
 	margin: 4px;
+	margin-left: auto;
+	margin-right: auto;
 	height: 100%;
 	max-width: 100%;
-	/*border: 2px solid hotpink;*/
 }
 #container2 {
-	/*border: 2px solid green;*/
 	background-color: black;
 	height: 30em;
     display: flex;
@@ -35,32 +35,28 @@ body {
 	letter-spacing: 6px;
 	padding-right: 5px;
 }
-#container3 {
-	/*border: 2px solid orange;*/
-}
 #container4 {
 	position: relative;
 	margin-top: 5px;
 	max-width: 100%;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	/*border: 2px solid blue;*/
 }
 #finalimage {
 	width: 100%;
+	border: 2px solid white;
 }
 table {
 	table-layout: fixed;
 	width: 100%;
-	border: 1px solid black;
 	color: white;
 }
 .ti {
 	width: 100%;
 }
 footer {
-	/*border: 2px solid hotpink;*/
 	color: white;
+	text-align: center;
 }
 
 /* link states */
@@ -77,3 +73,12 @@ a:hover {
 a {
 	text-decoration: none;
 }
+
+/* media queries */
+/*
+@media (max-width: 600px) {
+  .class {
+    display: none;
+  }
+}
+*/
